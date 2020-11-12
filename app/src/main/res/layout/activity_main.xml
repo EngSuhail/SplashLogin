@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#9F1EB5"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/eng_suhail_al_ansary"
+        android:fontFamily="casual"
+        android:textStyle="bold|italic"
+        android:textSize="40sp"
+        android:textColor="#0F1010"
+        android:layout_marginBottom="50dp"
+        android:padding="10dp"
+        android:background="#E91E63"
+      />
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/suhail"
+        android:contentDescription="@string/todo" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/apps_square"
+        android:fontFamily="cursive"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="#0F1010"
+        android:layout_marginTop="50dp"
+        android:padding="15dp"
+        android:background="#E91E63"
+        />
+
+</LinearLayout>
