@@ -21,7 +21,7 @@
             android:textSize="30sp"
             android:padding="20dp"
             android:layout_margin="20dp"
-            android:background="#F0F3F6"
+            android:background="@drawable/anas"
             android:layout_gravity="center"
 
 
@@ -37,7 +37,7 @@
             android:background="#F0F3F6"
             android:hint="@string/your_phone"
             android:inputType="phone"
-            android:padding="20dp"
+            android:padding="10dp"
             android:textColor="#2196F3"
             android:textColorHint="#009688"
             android:textStyle="bold" />
@@ -56,7 +56,7 @@
             android:textSize="30sp"
             android:padding="20dp"
             android:layout_margin="20dp"
-            android:background="#F0F3F6"
+            android:background="@drawable/anas"
             android:layout_gravity="center"
 
 
@@ -64,18 +64,15 @@
 
         <EditText
             android:id="@+id/password"
-            android:layout_width="wrap_content"
+            android:layout_width="151dp"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:autofillHints=""
             android:background="#F0F3F6"
             android:hint="@string/your_password"
             android:inputType="textPassword"
-            android:padding="20dp"
+            android:padding="10dp"
             android:textColor="#2196F3"
-
-
             android:textColorHint="#009688"
             android:textStyle="bold" />
     </LinearLayout>
@@ -93,7 +90,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:background="#FF5722"
+            android:background="@drawable/beautiful"
             android:padding="20dp"
             android:text="@string/login"
             android:textAllCaps="false"
@@ -108,7 +105,7 @@
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:background="#FF5722"
+            android:background="@drawable/beautiful"
             android:padding="20dp"
             android:text="Register"
             android:textAllCaps="false"
